@@ -3,7 +3,7 @@ set -e
 echo "hello job testing"
 
 # change this REPO to your location
-REPO=git@bitbucket.org:boise_devops_2016/hello.git
+REPO=git@github.com:dcdr/boise_devops_2016_hello.git
 rm -rf tmp
 mkdir -p tmp
 cd tmp
