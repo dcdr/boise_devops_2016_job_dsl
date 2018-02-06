@@ -2,7 +2,7 @@
 
 // job-dsl langauge
 String team= 'boise_devops_2016'
-String gitUrl = "https://bitbucket.org/$team"
+String gitUrl = "https://github.com/dcdr/$team"
 String cronSchedule = 'H/2 * * * *'
 services = ['hello', 'goodbye']
 branches = ['master', 'qa', 'staging', 'prod']
